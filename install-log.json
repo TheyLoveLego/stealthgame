@@ -1,0 +1,60 @@
+{"timestamp":"2024-09-09T18:49:13.501Z","level":"info","moduleName":"InstallerWinProcess","pid":23124,"message":"trying to connect to the ipc server"}
+{"timestamp":"2024-09-09T18:49:13.501Z","level":"debug","moduleName":"UnityIPCClient","pid":23124,"message":"connecting to IPC Server Unity-hubInstallServer"}
+{"timestamp":"2024-09-09T18:49:13.519Z","level":"debug","moduleName":"InstallerWinProcess","pid":23124,"message":"Validation strategy: {\"destination\":\"E:\\\\unityEditor\",\"destinationFilename\":\"UnitySetup64-2022.3.45f1.exe\",\"installerFilename\":\"UnitySetup64-2022.3.45f1.exe\",\"installerPath\":\"C:\\\\Users\\\\BRAYDE~1\\\\AppData\\\\Local\\\\Temp\\\\unityhub-01712460-6edb-11ef-ab1e-7184c2438def\",\"installerSizeInBytes\":3490684928,\"type\":0,\"uid\":\"2022.3.45f1-x86_64\",\"editorUniqueId\":{\"version\":\"2022.3.45f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-09-09T18:49:13.519Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-09-09T18:49:13.519Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-09-09T18:49:13.519Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Verifying installation type: EDITOR"}
+{"timestamp":"2024-09-09T18:49:13.519Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Verifying absence of an existing editor installation..."}
+{"timestamp":"2024-09-09T18:49:13.522Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Existing Editor Installation Check: Passed"}
+{"timestamp":"2024-09-09T18:49:13.522Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-09-09T18:49:13.522Z","level":"debug","moduleName":"Disk Validation Strategy","pid":23124,"message":"Destination Path: E:\\unityEditor"}
+{"timestamp":"2024-09-09T18:49:13.523Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-09-09T18:49:13.523Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-09-09T18:49:13.523Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Required space: 3490684928 bytes / 3.25 GB..."}
+{"timestamp":"2024-09-09T18:49:13.524Z","level":"debug","moduleName":"Disk Validation Strategy","pid":23124,"message":"Available disk Space: 1003745775616 bytes"}
+{"timestamp":"2024-09-09T18:49:13.524Z","level":"debug","moduleName":"Disk Validation Strategy","pid":23124,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-09-09T18:49:13.524Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-09-09T18:49:13.524Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\BRAYDE~1\\AppData\\Local\\Temp\\unityhub-01712460-6edb-11ef-ab1e-7184c2438def\\UnitySetup64-2022.3.45f1.exe"}
+{"timestamp":"2024-09-09T18:49:13.524Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-09-09T18:49:13.524Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-09-09T18:49:13.524Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-09-09T18:49:13.524Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Checksum check: Passed"}
+{"timestamp":"2024-09-09T18:49:13.524Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-09-09T18:49:13.526Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"beforeEditorInstallation"}
+{"timestamp":"2024-09-09T18:49:13.527Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"execInstaller"}
+{"timestamp":"2024-09-09T18:49:13.527Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"installFromExe"}
+{"timestamp":"2024-09-09T18:49:13.527Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"install C:\\Users\\BRAYDE~1\\AppData\\Local\\Temp\\unityhub-01712460-6edb-11ef-ab1e-7184c2438def\\UnitySetup64-2022.3.45f1.exe /S /D=E:\\unityEditor\\2022.3.45f1"}
+{"timestamp":"2024-09-09T18:54:15.239Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"afterEditorInstallation"}
+{"timestamp":"2024-09-09T18:54:15.240Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"Check DotNet Core Prerequisites, os release [ '10', '0', '22631' ]"}
+{"timestamp":"2024-09-09T18:54:15.240Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"major 10 minor 0"}
+{"timestamp":"2024-09-09T18:54:15.240Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"shouldInstallKB2999226:  false shouldInstallKB2533623:  false"}
+{"timestamp":"2024-09-09T18:54:15.242Z","level":"info","moduleName":"InstallerWinProcess","pid":23124,"message":"Creating modules.json at: E:\\unityEditor\\2022.3.45f1\\modules.json"}
+{"timestamp":"2024-09-09T18:54:16.023Z","level":"debug","moduleName":"InstallerWinProcess","pid":23124,"message":"Validation strategy: {\"destination\":\"E:\\\\unityEditor\",\"destinationFilename\":\"UnitySetup-WebGL-Support-for-Editor-2022.3.45f1.exe\",\"installerFilename\":\"UnitySetup-WebGL-Support-for-Editor-2022.3.45f1.exe\",\"installerPath\":\"C:\\\\Users\\\\BRAYDE~1\\\\AppData\\\\Local\\\\Temp\\\\unityhub-01725ce0-6edb-11ef-ab1e-7184c2438def\",\"installerSizeInBytes\":587439104,\"type\":1,\"uid\":\"webgl\",\"editorUniqueId\":{\"version\":\"2022.3.45f1\",\"architecture\":\"x86_64\"}}"}
+{"timestamp":"2024-09-09T18:54:16.024Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Executing the Install Validation Strategy..."}
+{"timestamp":"2024-09-09T18:54:16.024Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating presence of an existing installation..."}
+{"timestamp":"2024-09-09T18:54:16.024Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Verifying installation type: EDITOR_MODULE"}
+{"timestamp":"2024-09-09T18:54:16.024Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Skipping module destination check for all Windows binary installers: webgl"}
+{"timestamp":"2024-09-09T18:54:16.024Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Verifying selected value of module in modules.json at E:\\unityEditor\\2022.3.45f1\\modules.json"}
+{"timestamp":"2024-09-09T18:54:16.025Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"modules.json Check: Passed"}
+{"timestamp":"2024-09-09T18:54:16.025Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating destination path permission for access..."}
+{"timestamp":"2024-09-09T18:54:16.025Z","level":"debug","moduleName":"Disk Validation Strategy","pid":23124,"message":"Destination Path: E:\\unityEditor"}
+{"timestamp":"2024-09-09T18:54:16.025Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Destination Path check: Passed"}
+{"timestamp":"2024-09-09T18:54:16.025Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating available disk space on the partition."}
+{"timestamp":"2024-09-09T18:54:16.025Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Required space: 587439104 bytes / 560.23 MB..."}
+{"timestamp":"2024-09-09T18:54:16.026Z","level":"debug","moduleName":"Disk Validation Strategy","pid":23124,"message":"Available disk Space: 997112049664 bytes"}
+{"timestamp":"2024-09-09T18:54:16.026Z","level":"debug","moduleName":"Disk Validation Strategy","pid":23124,"message":"Available Disk Check: Passed"}
+{"timestamp":"2024-09-09T18:54:16.026Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating accessibility of installer..."}
+{"timestamp":"2024-09-09T18:54:16.026Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Verifying read and write accessibility to installer source path: C:\\Users\\BRAYDE~1\\AppData\\Local\\Temp\\unityhub-01725ce0-6edb-11ef-ab1e-7184c2438def\\UnitySetup-WebGL-Support-for-Editor-2022.3.45f1.exe"}
+{"timestamp":"2024-09-09T18:54:16.026Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Installer Accessibility Check: Passed"}
+{"timestamp":"2024-09-09T18:54:16.026Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Validating file integrity (checksum).."}
+{"timestamp":"2024-09-09T18:54:16.026Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Checksum value not supplied. Skipping Checksum"}
+{"timestamp":"2024-09-09T18:54:16.026Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Checksum check: Passed"}
+{"timestamp":"2024-09-09T18:54:16.026Z","level":"info","moduleName":"Disk Validation Strategy","pid":23124,"message":"Overall validation result: Passed"}
+{"timestamp":"2024-09-09T18:54:16.029Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"beforeModuleInstallation"}
+{"timestamp":"2024-09-09T18:54:16.029Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"Creating the folder of webgl, if needed: E:\\unityEditor\\2022.3.45f1"}
+{"timestamp":"2024-09-09T18:54:16.029Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"execInstaller"}
+{"timestamp":"2024-09-09T18:54:16.030Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"installFromExe"}
+{"timestamp":"2024-09-09T18:54:16.030Z","level":"info","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"install C:\\Users\\BRAYDE~1\\AppData\\Local\\Temp\\unityhub-01725ce0-6edb-11ef-ab1e-7184c2438def\\UnitySetup-WebGL-Support-for-Editor-2022.3.45f1.exe /S /D=E:\\unityEditor\\2022.3.45f1"}
+{"timestamp":"2024-09-09T18:55:02.414Z","level":"debug","moduleName":"UnityInstallStepsWindows","pid":23124,"message":"afterModuleInstallation"}
+{"timestamp":"2024-09-09T18:55:02.415Z","level":"info","moduleName":"InstallerWinProcess","pid":23124,"message":"Updating modules.json file at: E:\\unityEditor\\2022.3.45f1\\modules.json"}
+{"timestamp":"2024-09-09T18:58:24.620Z","level":"debug","moduleName":"UnityIPCClient","pid":23124,"message":"disconnected from Unity-hubInstallServer"}
